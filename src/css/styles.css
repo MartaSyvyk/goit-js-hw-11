@@ -12,7 +12,6 @@ body {
   color: #212121;
   line-height: 1.5;
   margin: 0;
-
 }
 
 a {
@@ -36,7 +35,7 @@ a {
   flex-wrap: wrap;
 
   gap: 5px;
-}  
+}
 .form-container {
   background-color: rgb(55, 55, 139);
   align-items: center;
@@ -44,21 +43,19 @@ a {
   justify-content: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  width: 1600px;
-
 }
 
-.load-more-container{
+.load-more-container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 20px;
 }
-.search-form{
+.search-form {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .input {
@@ -66,28 +63,25 @@ a {
   width: 250px;
   border-radius: 7px;
   border-style: none;
-
 }
 
 .button {
   height: 30px;
- 
+
   border-radius: 7px;
   border-style: none;
   margin-left: 5px;
   background-color: rgba(223, 223, 223, 0.785);
-  
 }
 
 .button:hover {
   cursor: pointer;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-
 }
 .submit {
-  position:absolute;
-  transform: translate(88px); 
+  position: absolute;
+  transform: translate(88px);
   width: 70px;
 }
 
@@ -95,34 +89,32 @@ a {
   width: 150px;
   background-color: rgb(55, 55, 139);
   color: #fafafa;
-
 }
 
-.info{
+.info {
   width: 300px;
   height: 60px;
   display: flex;
   gap: 15px;
-  justify-content:center;
-;
+  justify-content: center;
 }
 .info-item {
   align-items: center;
-justify-content: center;}
+  justify-content: center;
+}
 
 .image {
   width: 300px;
-  height: 200px ;
+  height: 200px;
   background-size: contain;
-  
 }
 
-.gallery
-{display: flex;
+.gallery {
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  width: 1600px;
+
   padding: 50px;
 }
 
