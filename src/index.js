@@ -93,7 +93,7 @@ function renderMarkup (images) {
     </p>
   </div>
   
-</div` }).join("");
+</div>` }).join("");
 refs.gallery.insertAdjacentHTML("beforeend", newMarkup);
 
 }
