@@ -73,6 +73,8 @@ function onLoadMore(event) {
       }
       renderMarkup(result.hits);
       gallery.refresh();
+
+      smoothScroll();
     })
     .catch(error => console.log(error));
 }
@@ -102,4 +104,16 @@ function renderMarkup(images) {
     })
     .join('');
   refs.gallery.insertAdjacentHTML('beforeend', newMarkup);
+}
+
+function smoothScroll() {
+  const { height: cardHeight } = document
+    .querySelector('.gallery')
+    .firstElementChild.getBoundingClientRect();
+
+  window.scrollBy({
+    top: cardHeight * 2,
+    behavior: 'smooth',
+  });
+  console.log(1);
 }
